@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="userSelectionPane" maxHeight="680.0" maxWidth="1080.0" minHeight="680.0" minWidth="1080.0" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER" layoutX="393.0" layoutY="148.0" spacing="10">
+            <Label fx:id="cabinetDetails" text="The cabinet">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="cabinetLockerDetails" text="">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="lockerDescription" text="with the locker">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="lockerDetails" text="">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+        </HBox>
+        <Button fx:id="generatePasscode" layoutX="494.0" layoutY="224.0" mnemonicParsing="false" onAction="#clickGetPasscode" text="Get Passcode" />
+        <HBox fx:id="passcodeAndPaste" alignment="CENTER" layoutX="441.0" layoutY="314.0" prefHeight="25.0" prefWidth="200.0">
+            <children>
+                <TextField fx:id="passcodeField" promptText="Type in Passcode" />
+                <Button fx:id="pasteButton" mnemonicParsing="false" onAction="#pastePasswordButton" text="Paste" />
+            </children>
+        </HBox>
+        <HBox fx:id="confirmAndBack" layoutX="501.0" layoutY="382.0" spacing="40">
+            <children>
+                <Button fx:id="confirmPasscode" layoutX="411.0" layoutY="388.0" mnemonicParsing="false" onAction="#clickConfirmPasscode" text="Confirm" />
+                <Button fx:id="backButton" layoutX="619.0" layoutY="388.0" mnemonicParsing="false" onAction="#clickBackButton" text="Back" />
+            </children>
+        </HBox>
+        <VBox fx:id="lockInfoAndButton" alignment="TOP_CENTER" layoutX="447.0" layoutY="273.0" spacing="10">
+            <children>
+                <Label fx:id="lockInfo" layoutX="460.0" layoutY="429.0" text="Lock the locker before continuing." textAlignment="JUSTIFY" textFill="#e76262" />
+                <Button fx:id="lockLocker" layoutX="512.0" layoutY="453.0" mnemonicParsing="false" onAction="#lockLockerAfterUsage" text="Lock locker" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminSelectionPane" maxHeight="680.0" maxWidth="1080.0" minHeight="680.0" minWidth="1080.0" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER" layoutX="391.0" layoutY="125.0" spacing="10">
+            <Label fx:id="cabinetDetails" text="The cabinet">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="cabinetLockerDetails" text="">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="lockerDescription" text="with the locker">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="lockerDetails" text="">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+        </HBox>
+        <Label fx:id="changeStateLabel" layoutX="411.0" layoutY="217.0" text="Change state of locker:" />
+        <ChoiceBox fx:id="stateChoiceBox" layoutX="411.0" layoutY="244.0" prefHeight="26.0" prefWidth="169.0" />
+        <Button fx:id="confirmConfigurationButton" layoutX="605.0" layoutY="244.0" mnemonicParsing="false" onAction="#clickConfirmConfiguration" text="Confirm" textFill="#71c971"/>
+        <Button fx:id="removeLocker" layoutX="635.0" layoutY="327.0" mnemonicParsing="false" onAction="#clickRemoveLocker" text="Remove Locker" textFill="#e68484"/>
+        <Button fx:id="backButton" layoutX="391.0" layoutY="327.0" mnemonicParsing="false" onAction="#clickBackButton" text="Back" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="cabinetPane" maxHeight="680.0" maxWidth="1080.0" minHeight="680.0" minWidth="1080.0" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="instructions" layoutX="479.0" layoutY="148.0" text="Add cabinet">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="locationField" alignment="CENTER" layoutX="465.0" layoutY="201.0" prefHeight="26.0" prefWidth="149.0" promptText="Type in location e.g. A103" />
+        <TextField fx:id="lockerQuantityField" alignment="CENTER" layoutX="436.0" layoutY="258.0" prefHeight="26.0" prefWidth="218.0" promptText="Type in quantity of locker (max) 18" />
+        <Button fx:id="addLockerButton" layoutX="634.0" layoutY="314.0" mnemonicParsing="false" onAction="#clickAddLocker" text="Add" />
+        <Button fx:id="backButton" layoutX="414.0" layoutY="314.0" mnemonicParsing="false" onAction="#clickBackButton" text="Back" />
+    </children>
+</AnchorPane>

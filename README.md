@@ -1,4 +1,4 @@
-# 🔐 PassGen – Simulated Cloud Service for One-Time Locker Access
+# 🔐 PassGen – Simulated Cloud Service
 
 ## 📘 Project Overview
 

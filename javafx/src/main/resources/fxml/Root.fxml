@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+    Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+    License status: Unspecified
+-->
+
 <?import com.jfoenix.controls.JFXListView?>
 <?import com.jfoenix.controls.JFXToolbar?>
 <?import javafx.geometry.Insets?>

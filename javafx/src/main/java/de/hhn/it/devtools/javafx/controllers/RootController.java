@@ -1,3 +1,6 @@
+// Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+// License status: Unspecified
+
 package de.hhn.it.devtools.javafx.controllers;
 
 import de.hhn.it.devtools.javafx.modules.Module;
@@ -26,11 +29,8 @@ public class RootController extends Controller implements Initializable {
   @FXML
   private AnchorPane modulePane;
 
-
-
   private Module actualModule = null;
   private Map<String, Module> moduleMap;
-
 
   public RootController() {
     logger.debug("RootController created.");

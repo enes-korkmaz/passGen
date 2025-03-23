@@ -1,3 +1,6 @@
+// Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+// License status: Unspecified
+
 package de.hhn.it.devtools.javafx.controllers;
 
 import org.slf4j.Logger;

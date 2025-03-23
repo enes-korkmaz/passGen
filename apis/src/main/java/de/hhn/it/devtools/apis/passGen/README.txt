@@ -1,1 +1,0 @@
-https://confluence-student.it.hs-heilbronn.de/display/DT24SS/02+PassGen

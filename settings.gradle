@@ -1,4 +1,6 @@
-rootProject.name = 'tooling-devtools-24-ss'
+// Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+// License status: Unspecified
 
+rootProject.name = 'tooling-devtools-24-ss'
 
 include ':apis', ':components', ':javafx'

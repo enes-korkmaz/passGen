@@ -24,3 +24,8 @@ bin/
 
 # MicroProject specific files
 coffeemaker.ser
+
+# Gradle Wrapper (generate with - gradle wrapper)
+gradle/
+gradlew
+gradlew.bat

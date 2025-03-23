@@ -1,5 +1,7 @@
-package de.hhn.it.devtools.javafx.modules;
+// Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+// License status: Unspecified
 
+package de.hhn.it.devtools.javafx.modules;
 
 import de.hhn.it.devtools.javafx.controllers.Controller;
 import javafx.scene.Node;

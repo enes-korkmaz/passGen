@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 
+<!--
+    Provided as part of the course material – author: Prof. Dr. Jörg Winckler
+    License status: Unspecified
+-->
+
 <ruleset name="DevTools Rules"
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,7 +13,6 @@
     <description>
         My custom rules
     </description>
-
 
     <!-- Your rules will come here -->
 <!--    <rule ref="category/java/errorprone.xml/BeanMembersShouldSerialize" />-->
